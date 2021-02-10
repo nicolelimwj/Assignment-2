@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="index.html">
+</head>
+<style>
+body {margin:10;}
+
+body {
+  background-color: #c7c7c7;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: black;
+}
+
+.active {
+  background-color: #269C78;
+}
+
+h1 {
+	text-align: center
+}
+
+h2 {
+	text-decoration: underline;
+	text-align: center
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #333333;
+}
+
+div {
+  width: 320px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0;
+}
+
+a:link, a:visited {
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: black;
+}
+
+
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="classes.html">Classes</a></li>
+  <li><a href="pricing.html">Pricing</a></li>
+  <li><a href="contactus.html">Contact Us</a></li>
+</ul>
+
+<img src="grityard.png" alt="grityard" style="width: 1400px; height: 350px">
+
+<h2> Contact Us </h2>
+
+<center><div>
+<h4> Phone: +65 87590989 </h4>
+
+<h4> Email: contact@grityard.com </h4>
+
+<h4> Location: 2 College Road, Level 2, Singapore 169850
+</div></center>
+
+<h1> Our Location </h1>
+
+<center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5512.866189500267!2d103.83308023655479!3d1.282606041097953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19a038dc8a4b%3A0x8cb96ffefd7d64d0!2sGRITYARD!5e0!3m2!1sen!2ssg!4v1612619634207!5m2!1sen!2ssg" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></center>
+
+<br>
+
+<h4 style="text-align: center"> Head on to our official website by clicking the button below! </h4>
+
+<center><div style="width: 170px; padding:5px"><a href="https://grityard.com/" target="_blank">Offical Website</a></div></center>
+
+</body>
+</html>

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="index.html">
+</head>
+<style>
+body {margin:10;}
+
+body {
+  background-color: #c7c7c7;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: black;
+}
+
+.active {
+  background-color: #269C78;
+}
+
+h1 {
+	text-align: center
+}
+
+h2 {
+	text-decoration: underline
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color:#e6e6e6;
+}
+
+tr:nth-child(odd) {
+  background-color:#ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.img-container {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="classes.html">Classes</a></li>
+  <li><a href="pricing.html">Pricing</a></li>
+  <li><a href="contactus.html">Contact Us</a></li>
+</ul>
+
+<img src="grityard.png" alt="grityard" style="width: 1400px; height: 350px">
+
+<h2> Pricing </h2>
+
+<div class="clearfix">
+  <div class="img-container">
+  <img src="weekly.png" alt="weekly" style="width:100%">
+  </div>
+  <div class="img-container">
+  <img src="1month.png" alt="1 month" style="width:100%">
+  </div>
+  <div class="img-container">
+  <img src="3months.png" alt="3 months" style="width:100%">
+  </div>
+
+<hr>
+
+<h1>Physical Class Packages</h1>
+
+<center><table>
+  <tr>
+    <th>Package</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>Single Session</td>
+    <td>$30</td>
+  </tr>
+ <tr>
+    <td>1 Week Unlimited Trial</td>
+    <td>$35</td>
+  </tr>
+ <tr>
+    <td>Weekly Unlimited</td>
+    <td>$85</td>
+  </tr>
+ <tr>
+    <td>1 Month Unlimited</td>
+    <td>$290</td>
+  </tr>
+  <tr>
+    <td>3 Months Unlimited</td>
+    <td>$35</td>
+  </tr>
+ <tr>
+    <td>10 Sessions (Valid for 4 Months)</td>
+    <td>$250</td>
+  </tr>
+ <tr>
+    <td>20 Sessions (Valid for 8 Months)</td>
+    <td>$400</td>
+  </tr><center>
+</table>
+
+<h1>Online Class Packages</h1>
+
+<center><table>
+  <tr>
+    <th>Package</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>GRITlive 1 Session</td>
+    <td>$10</td>
+  </tr>
+ <tr>
+    <td>GRITlive 3 Sessions</td>
+    <td>$28</td>
+  </tr>
+ <tr>
+    <td>GRITlive 5 Sessions</td>
+    <td>$42</td>
+  </tr>
+ <tr>
+    <td>GRITone (4 week programme)</td>
+    <td>$250</td>
+  </tr>
+  <tr>
+    <td>GRITone PLUS (4 week programme + 4 GRITlive Sessions) </td>
+    <td>$270</td>
+  </tr>
+ <tr>
+    <td>10 Sessions (Valid for 4 Months)</td>
+    <td>$250</td>
+  </tr>
+ <tr>
+    <td>20 Sessions (Valid for 8 Months)</td>
+    <td>$400</td>
+  </tr><center></table>
+
+<br>
+
+<h4> Click the logo below to head on over to our shop &#8595; </h4>
+<a href="https://grityard.getomnify.com/#!/home" target="_blank"><img src="logo.png" style="width: 200px;height:200px;position:bottom"></a>
+
+</body>
+</html>
