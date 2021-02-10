@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="index.html">
+</head>
+<style>
+body {margin:10;}
+
+body {
+  background-color: #c7c7c7;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: black;
+}
+
+.active {
+  background-color: #269C78;
+}
+
+h1 {
+	text-align: center
+}
+
+h2 {
+	text-decoration: underline
+}
+
+html {
+ 
+ box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="classes.html">Classes</a></li>
+  <li><a href="pricing.html">Pricing</a></li>
+  <li><a href="contactus.html">Contact Us</a></li>
+</ul>
+
+<div style="padding:20px;margin-top:30px;background-color:#C7C7C7;height:1500px;">
+
+<img src="grityard.png" alt="grityard" style="width: 1400px; height: 350px">
+
+<h2> About Us </h2>
+
+<p> At GRITYARD, you can look forward to a time-efficient programme focused on athlete development to help you with your next 10km run, full marathon, triathlon or just to build your fitness and achieve your goals.</p>
+
+<p> We have formulated a system based on five basic pillars of human body functional output – <b> Endurance, Speed, Power, Core and Strength</b>. The programming will incorporate the essence of these five pillars condensed into quick, time-efficient <b> 30 to 45-minute sessions </b>. From the complete beginner to the elite athlete, this system also caters to different fitness levels and body types.</p>
+
+<h2> Our Concept </h2>
+
+<p> Everybody has an ability ratio that is split among the <b> 5 pillars </b>, and certain body types respond more keenly to specific pillars than others. Some people do better at endurance sport, whilst others do better in explosive sprints. At GRIT YARD, we design our programme around the five pillars so you can work on your weaknesses while building on your strengths.</p>
+
+<h2> Our Team </h2>
+<br>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="limyx.jpg" alt="Lim Yao Xiang" style="width:100%">
+      <div class="container">
+        <h2>Lim Yao Xiang</h2>
+        <p class="title">Co-Founder & Fitness Trainer</p>
+        <p >Ex-National Waterpolo Player, Swimmer and Certified Sports Trainer and First Aider</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="limyp.jpg" alt="Lim Yao Peng" style="width:100%">
+      <div class="container">
+        <h2>Lim Yao Peng</h2>
+        <p class="title">Co-Founder & Fitness Trainer</p>
+        <p>Former National Sprinter from 2011-2018 with a background in Sport Science (Bsc)</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="joykuan.jpg" alt="Joy Kuan" style="width:100%">
+      <div class="container">
+        <h2>Joy Kuan</h2>
+        <p class="title">Fitness Trainer</p>
+        <p>Former Team Singapore Spinter from 2015-2018 and the current Head Coach for Singapore's U18 Girls' Relay Team</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<h2 style="text-align:center"> Our Studio </h2>
+
+<center><img src="studio.jpeg" alt="Studio" width="700" height="400"></center>
+
+</body>
+</html>
